@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping List App</title>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+	<div id="header">
+		<h1>Little Shopping List</h1>
+	</div>
+	<div class="container">
+		
+		<form name="form" id="shopping-form">
+			<div class="add-item">
+				<input type="text" id="item" placeholder="Add an item">
+				<input type="button" class="green-box" value="+">
+			</div>
+		</form>
+
+		<form name="form" id="shopping-list">
+			<div class="add-item-head">
+				<p id="clear">Clear</p>
+				<p id="alphabetize">Alphabetize</p>
+			</div>
+			<div class="add-item">
+				<div class="red-box">
+					<input type="checkbox" class="checkbox" value"">
+				</div>
+				<input type="text" class="item-field" value="Bread">
+			</div>
+			<div class="add-item">
+				<div class="red-box">
+					<input type="checkbox" class="checkbox" value"">
+				</div>
+				<input type="text" class="item-field" value="Apples">
+			</div>
+		</form>
+	</div>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type='text/javascript' src='application.js'></script>
+</body>
+</html>

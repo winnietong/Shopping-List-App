@@ -1,0 +1,149 @@
+/* CSS RESET
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CUSTOM CSS */
+
+body{ 
+/*	background-color: #b1dcb3;
+*/
+	font-size:16px; 
+	margin: auto;
+	padding:0; 
+	font-family: Helvetica;
+	width: 600px;
+}
+
+#header{
+	text-align: center;
+	padding: 25px;
+}
+
+#header h1{
+	font-size: 50px;
+}
+
+.container{
+	text-align: center;
+	margin:auto; 
+}
+
+#item{
+	display: inline-block;
+	width: 87%;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 14px;
+	margin-left: -4px;
+	border: 1px solid #ddd;
+}
+
+.add-item{
+	margin: auto;
+	width: 500px;
+	height: 50px;
+}
+
+.item-field{
+	display: inline-block;
+	width: 87%;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 14px;
+	margin-left: -4px;
+	border: 1px solid #ddd;
+}
+
+.green-box{
+	width: 10%;
+	display: inline;
+	font-size: 14px;
+	height: 44px;
+	background-color: #b1dcb3;
+	border: 1px solid #ddd;
+	margin-top: 0px;
+	margin-left: -8px;
+	float: right;
+}
+
+.red-box{
+	width: 10%;
+	display: inline;
+	height: 42px;
+	border: 1px solid #ddd;
+	float: left;
+}
+
+#shopping-form .item-field{
+	color: silver;
+}
+
+#shopping-list{
+	margin-top: 20px;
+}
+
+#shopping-list p{
+	text-transform: uppercase;
+	padding-right: 10px;
+	padding-left: 8px;
+	font-size: 10px;
+	float: left;
+	color: teal;
+}
+
+.add-item-head{
+	margin: auto;
+	width: 500px;
+	height: 20px;
+}
+
+.checkbox{
+	display: inline;
+	margin-top: 15px;
+}
