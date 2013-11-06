@@ -18,7 +18,7 @@ $(document).ready(function(){
 	}
 
 	$( "#clear" ).click(function(){
-		$("input:checked").closest(".add-item").remove();
+		$("input:checked").closest(".add-item").hide('slow');
 	});
 
 	$( "#alphabetize" ).click(function(){
