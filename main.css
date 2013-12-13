@@ -51,14 +51,14 @@ table {
 /* CUSTOM CSS */
 
 body{ 
-/*	background-color: #b1dcb3;
-*/
 	font-size:16px; 
 	margin: auto;
 	padding:0; 
 	font-family: Helvetica;
 	width: 600px;
 }
+
+input:focus {outline: none;}
 
 #header{
 	text-align: center;
@@ -72,6 +72,11 @@ body{
 .container{
 	text-align: center;
 	margin:auto; 
+}
+
+#clear:hover, #alphabetize:hover{
+	text-decoration: underline;
+	cursor: default;
 }
 
 #item{
